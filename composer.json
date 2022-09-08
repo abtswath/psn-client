@@ -1,0 +1,37 @@
+{
+    "name": "abtswath/psn-client",
+    "description": "PSN client",
+    "type": "library",
+    "version": "0.0.1",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "php": "^7.4",
+        "psr/container": "^2.0",
+        "ext-json": "*"
+    },
+    "keywords": [
+        "PSN",
+        "PlayStation",
+        "API",
+        "PlayStation API",
+        "PS4",
+        "PS5",
+        "PS API"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abtswath\\PSNClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abtswath",
+            "email": "zyapfine@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/abtswath/psn-client/issues",
+        "source": "https://github.com/abtswath/psn-client"
+    }
+}
